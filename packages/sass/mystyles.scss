@@ -2,9 +2,9 @@
 
 // Set your brand colors
 $orange: #f4511e;
-$orange-darker: #b91400;
+$orange-darker: #df4415;
 $blue: #1976d2;
-$beige-lighter: #EFF0EB;
+$beige-lighter: #eff0ebef;
 $white: #ffffff;
 
 // Update Bulma's global variables
@@ -13,7 +13,8 @@ $link: $blue;
 $info: $orange-darker;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
-$body-background-color: $beige-lighter;
+$body-background-color: $white;
 $navbar-burger-color: $white;
 
 @import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/bulma-divider/dist/css/bulma-divider.sass";
