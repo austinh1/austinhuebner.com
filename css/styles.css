@@ -49,3 +49,7 @@ div.is-divider {
     margin-left: auto ;
     margin-right: auto ;
 }
+
+.link-button {
+    margin: 10px;
+}

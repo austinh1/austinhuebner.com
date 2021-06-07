@@ -12,8 +12,8 @@
 
 <body>
     <section class="hero is-primary">
-        <!-- <div class="hero-head">
-            <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+        <div class="hero-head">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
                     <div class="navbar-burger" aria-label="menu" aria-expanded="false"
                         data-target="navbarBasicExample">
@@ -24,13 +24,16 @@
                 </div>
                 <div id="navbarBasicExample" class="navbar-menu">
                     <div class="navbar-end">
+                        <a class="navbar-item is-active" href="index.html">
+                            Portfolio
+                        </a>
                         <a class="navbar-item" href="about.html">
                             About
                         </a>
                     </div>
                 </div>
             </nav>
-        </div> -->
+        </div>
         <div class="hero-body has-background-primary">
             <figure class="container image is-128x128 shadow">
                 <img class="is-rounded" src="images/profile-picture.jpg">
@@ -85,7 +88,7 @@
                 <h1 class="title is-1 has-text-centered">
                     Hello there!
                 </h1>
-                <p class="has-text-centered">I'm a software engineer from Cincinnati, Ohio with over 7 years of experience developing native and web applications aas well as video games. I'd love to hear about how I could help with your next project!</p>
+                <p class="has-text-centered">I'm a software engineer from Cincinnati, Ohio with over 7 years of experience developing native and web applications as well as video games. I'd love to hear about how I could help with your next project!</p>
                 <h3>I have experience with:</h3>
                 <ul>
                     <li>3D applications for Windows and Mac operating systems</li>
@@ -97,25 +100,25 @@
                     <li>front-end and back-end web development with Angular and ASP.NET</li>
                 </ul>
                 <div class="box has-text-centered">
-                    <div class="">
-                        <a href="files/Austin Huebner Resume 20210517.pdf" download="files/Austin Huebner Resume 20210517.pdf">
-                            <button class="button is-large">
-                                <span class="icon is-medium">
-                                    <i class="fas fa-download"></i>
-                                </span>
-                                <span>Full Résumé</span>
-                            </button>
-                        </a>
-                        <a href="mailto:austinsh94@gmail.com" download="files/Austin Huebner Resume 20210517.pdf">
-                            <button class="button is-large">
-                                <span class="icon is-medium">
-                                    <i class="fas fa-envelope-square"></i>
-                                </span>
-                                <span>Contact Me</span>
-                            </button>
-                        </a>
-                    </div>
+                    <a class="link-button" href="files/Austin Huebner Resume 20210517.pdf" download="files/Austin Huebner Resume 20210517.pdf">
+                        <button class="button is-large is-light">
+                            <span class="icon is-medium">
+                                <i class="fas fa-download"></i>
+                            </span>
+                            <span>Full Resume</span>
+                        </button>
+                    </a>
+                    <a class="link-button" href="mailto:austinsh94@gmail.com">
+                        <button class="button is-large is-light">
+                            <span class="icon is-medium">
+                                <i class="fas fa-envelope-square"></i>
+                            </span>
+                            <span>Contact Me</span>
+                        </button>
+                    </a>
                 </div>
+
+                <h3 class="has-text-centered">Scroll down to see projects I've worked on!</h3>
             </div>
         </div>
         <div class="is-divider"></div>
@@ -142,13 +145,12 @@
                 film sets, scenes and shots. Using the film sets, the user can animate props in a scene and take shots of particular angles. The shots can then be edited together into a master timeline so that it can be exported and shown to potential investors.</p>
                 <h3>Key Features</h3>
                 <ul>
-                    <li>UI system for opening and closing generic panels</li>
-                    <li>Adobe-like timeline for editing together shots to create a film and a dope sheet for animating props</li>
-                    <li>Text to Speech to create computer generated voice audio from script and import into timeline</li>
-                    <li>PHP login system using a bitnami server for login authentication and MySQL for holding user profile and key data and product key generation</li>
-                    <li>Camera panel to help directors understand how to position the camera in 3D space</li>
-                    <li>Override system for sets, scenes and shots, so that a change to a set would propagate to scenes, and changes from a scene to its shots</li>
-                    <li>Asset importing at runtime, including 3d models and MP3s</li>
+                    <li>Architected UI system for opening and closing generic panels</li>
+                    <li>Developed Adobe-like timeline for editing together shots to create a film and a dope sheet for animating props</li>
+                    <li>Integrated text to speech to create computer generated voice audio from script and import into timeline</li>
+                    <li>Developed PHP login system using a bitnami server for login authentication and MySQL for holding user profile and key data and product key generation</li>
+                    <li>Designed camera panel to help directors understand how to position the camera in 3D space</li>
+                    <li>Developed asset importing at runtime, including 3d models and MP3s</li>
                 </ul>
             </div>
             <figure class="image picture shadow">
@@ -176,7 +178,7 @@
             <div class="content">
                 <h3>Description</h3>
                 <p>I developed a virtual, mixed, and augmented reality software platform for real-time, remote collaboration, utilizing Unity and JetBrains Rider for development. 
-                    I wrote thread-safe code that also performs in VR in a networked multi-user environment and supported many VR headsets such as the Oculus Go/Quest, and even touch-base devices like the Microsoft Surface. 
+                    I wrote thread-safe code that also performs in VR in a networked multi-user environment and supported many VR headsets such as the Oculus Go/Quest, and even touch-based devices like the Microsoft Surface and Android smart phones. 
                     All functionality was written as an API for plugin developers.</p>
                 <h3>Key Features</h3>
                 <ul>
