@@ -1,4 +1,6 @@
 @charset "utf-8";
+@import "./node_modules/bulma/sass/utilities/initial-variables";
+@import "./node_modules/bulma/sass/utilities/functions";
 
 // Set your brand colors
 $orange: #f4511e;
@@ -15,7 +17,6 @@ $widescreen-enabled: false;
 $fullhd-enabled: false;
 $body-background-color: $white;
 $navbar-burger-color: $white;
-$hero-body-padding: 1rem 1.5rem;
 
 @import "../node_modules/bulma/bulma.sass";
 @import "../node_modules/bulma-divider/dist/css/bulma-divider.sass";
