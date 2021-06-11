@@ -15,6 +15,7 @@ $widescreen-enabled: false;
 $fullhd-enabled: false;
 $body-background-color: $white;
 $navbar-burger-color: $white;
+$hero-body-padding: 1rem 1.5rem;
 
 @import "../node_modules/bulma/bulma.sass";
 @import "../node_modules/bulma-divider/dist/css/bulma-divider.sass";
